@@ -65,4 +65,8 @@ void swap(stack_t **head, unsigned int counter);
 void add(stack_t **head, unsigned int counter);
 void nop(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int value);
+void free_stack(stack_t *head);
+void addnode(stack_t **head, int n);
+int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
+void stack(stack_t **head, unsigned int counter);
 #endif
